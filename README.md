@@ -1,4 +1,4 @@
-MC_Mandrill
+MC_Mail
 ===========
 
 1.**What is it?**
