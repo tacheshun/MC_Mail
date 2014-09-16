@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MC_Mail>
+            <version>0.0.1</version>
+        </MC_Mail>
+    </modules>
+
+    <global>
+        <models>
+            <mc_mail>
+                <class>MC_Mail_Model</class>
+            </mc_mail>
+
+            <core>
+		        <rewrite>
+		            <email_template>MC_Mail_Model_Email_Template</email_template>
+		        </rewrite>
+		    </core>
+        </models>
+    </global>
+</config>
